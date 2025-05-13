@@ -16,10 +16,10 @@ export class Counter extends React.Component {
 	// demoHandler = () => {
 	// 	console.log("demo clicked", this.state.count);
 	// };
-	demoHandler() {
-		this.setState({ count: 100 });
-		// console.log("demo clicked", this.state.count);
-	}
+	// demoHandler() {
+	// 	this.setState({ count: 100 });
+	// 	// console.log("demo clicked", this.state.count);
+	// }
 
 	render() {
 		return (
@@ -31,7 +31,7 @@ export class Counter extends React.Component {
 					<button onClick={() => this.handleCounterChange(-1)}>
 						Decrement
 					</button>
-					<button onClick={this.demoHandler}>demo</button>
+					{/* <button onClick={this.demoHandler}>demo</button> */}
 				</div>
 			</>
 		);
